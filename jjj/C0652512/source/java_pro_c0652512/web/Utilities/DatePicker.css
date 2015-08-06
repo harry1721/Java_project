@@ -1,0 +1,101 @@
+INPUT.DatePicker {
+
+	Z-INDEX: 20; border:1px solid #0070bf; PADDING-RIGHT: 3px; DISPLAY:block; PADDING-LEFT: 24px; FONT-SIZE: 13px; BACKGROUND: #fff url('../images/cal1.gif') no-repeat left top; PADDING-BOTTOM: 3px; WIDTH: 150px; CURSOR: pointer; PADDING-TOP: 3px; 
+
+}
+
+INPUT.DatePicker:unknown {
+
+	Z-INDEX: 20; BACKGROUND: #fffce9 url('../images/cal1.gif') no-repeat left top; 
+
+}
+
+.dp_container {
+
+	Z-INDEX: 20; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; Z-INDEX: 500; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; POSITION: relative
+
+}
+
+.dp_cal {
+
+	Z-INDEX:500; BORDER-RIGHT: #0070bf 1px solid; BORDER-TOP: #0070bf 1px solid; LEFT:0px; MARGIN: 0px 0px 3px; BORDER-LEFT: #0070bf 1px solid; WIDTH: 177px; BORDER-BOTTOM: #0070bf 1px solid; POSITION: absolute; TOP:-5px; BACKGROUND-COLOR: #fff
+
+}
+
+.dp_cal TABLE {
+
+	Z-INDEX: 20; WIDTH: 100%; BORDER-COLLAPSE: collapse; border-spacing: 0
+
+}
+
+.dp_cal SELECT {
+
+	Z-INDEX: 20; FONT-SIZE: 11px; MARGIN: 2px 3px
+
+}
+
+.dp_cal SELECT OPTION {
+
+	Z-INDEX: 20; PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px
+
+}
+
+.dp_cal TH {
+
+	Z-INDEX: 20; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; WIDTH: 14.28%; PADDING-TOP: 2px; TEXT-ALIGN: center
+
+}
+
+.dp_cal TD {
+
+	Z-INDEX: 20; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; WIDTH: 14.28%; PADDING-TOP: 2px; TEXT-ALIGN: center
+
+}
+
+.dp_cal TH {
+
+	Z-INDEX: 20; BORDER-RIGHT: #aad4f2 0px solid; BORDER-TOP: #aad4f2 1px solid; FONT-WEIGHT: bold; BACKGROUND: #daf2e6; BORDER-LEFT: #aad4f2 0px solid; COLOR: #797774; BORDER-BOTTOM: #aad4f2 1px solid
+
+}
+
+.dp_cal TD {
+
+	Z-INDEX: 20; CURSOR: pointer
+
+}
+
+.dp_cal THEAD TH {
+
+	Z-INDEX: 20; BACKGROUND: #d9eefc
+
+}
+
+.dp_cal TD.dp_roll {
+
+	Z-INDEX: 20; BACKGROUND: #fff6bf; COLOR: #000
+
+}
+
+.dp_hide {
+
+	Z-INDEX: 20; VISIBILITY: hidden
+
+}
+
+.dp_empty {
+
+	Z-INDEX: 20; BACKGROUND: #eee
+
+}
+
+.dp_today {
+
+	Z-INDEX: 20; BACKGROUND: #daf2e6
+
+}
+
+.dp_selected {
+
+	Z-INDEX: 20; BACKGROUND: #328dcf; COLOR: #fff
+
+}

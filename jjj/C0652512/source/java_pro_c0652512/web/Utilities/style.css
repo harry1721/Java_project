@@ -1,0 +1,88 @@
+
+
+root { 
+    display: block;
+}
+.border{
+    border-color: #0066CC;
+}
+
+.fhdr{
+    color:#296B56;
+    font-family: verdana;
+    font-size: large;
+    font-weight: bold;
+    border-color: teal;
+    background-color: whitesmoke;
+}
+
+.fshdr{
+    color:#296B56;
+    font-family: verdana;
+    font-size: large;
+
+}
+.flbl{
+    color:#296B56;
+    font-family: verdana;
+    font-size: medium;
+    background-color: whitesmoke;
+}
+.ftxt{
+    font-size:13px;
+}
+.bck{
+    background-color: #F0F0F0;
+}
+.ghdr{
+    color:#296B56;
+    font-family: verdana;
+    font-size: medium;
+    font-weight: bold;
+    border-color: teal;
+    background-color: whitesmoke;
+}
+
+g.shdr{
+    color:#296B56;
+    font-family: verdana;
+    font-size: medium;
+
+}
+.glbl{
+    color:#296B56;
+    font-family: verdana;
+    font-size: small;
+    background-color: whitesmoke;
+}
+.errmsg{
+    color:#B6294D;
+    font-family: verdana;
+    font-size: medium;
+}
+.fbut{
+    color:whitesmoke;
+    font-family: verdana;
+    font-size: small;
+    font-weight: bold;
+    background-color: #3AC9C6;
+}
+
+a:link {
+    text-decoration: none;
+    color: #465799;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: #008080;
+}
+a:active {
+    text-decoration: none;
+}
+a {
+    font-size: small;
+    font-weight: bold;
+}
